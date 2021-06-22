@@ -1,0 +1,609 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Oswald', sans-serif;
+}
+
+html, body {
+    width: 100%;
+}
+
+.clear{
+    clear: both;
+}
+
+/*header*/
+
+section.header{
+    width: 100%;
+    height: 110px;
+    border-bottom: 3px solid #EB2D2D;
+}
+
+section.header .menu-container{
+    margin: 20px ;
+    max-width: 1400px;
+}
+
+section.header .menu-total {
+    margin-left: 10px;
+}
+
+section.header .menu-total .logo{
+    float: left;
+    left: 40px;
+}
+
+section.header .menu-desktop ul li{
+    display: inline-block;
+    padding: 10px 28px;
+    position: relative;
+    left: 48%;
+    top: 30px;
+}
+
+.menu-desktop ul li a {
+    font-size: 23px;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    color: #000;
+    font-style: italic;
+}
+
+.menu-desktop ul li a.atual{
+    font-size: 23px;
+    font-style: italic;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    color: #EB2D2D;
+}
+
+.menu-mobile {
+	float: right;
+	width: 32px;
+	height: 32px;
+	background-size: 100% 100%;
+	cursor: pointer;
+	background-image: url(imagens/icon_menu.png);
+	display: none;
+}
+
+.menu-mobile ul{
+	display: none;
+	width: 100%;
+	left: 0;
+	top: 95px;
+	border-bottom:4px solid #EB2D2D;
+	z-index: 999;
+	position: absolute;
+	text-align: center;
+	background-color: white;
+}
+
+.menu-mobile li{
+	font-size: 23px;
+	padding:20px 0px;
+	font-style: italic;
+}
+
+.menu-mobile li a{
+	color: black;
+	text-decoration: none;
+}
+
+/******/
+
+/* Venda linha */
+
+section.venda{
+    padding: 60px 2%;
+    padding-bottom: 20px;
+    min-height: 90%;
+}
+
+section.venda .central-linha{
+    max-width: 1400px;
+    margin: 20px auto;
+    margin-bottom: 20px;
+    position: relative;
+    text-align: center;
+}
+
+section.venda .linha {
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    top: 20px;
+    background: black;
+}
+
+.texto-linha{
+    display: inline-block;
+    position: relative;
+    margin-top: 0px;
+}
+
+.texto-linha h2{
+    background-color: white;
+    display: block;
+    text-transform: uppercase;
+    font-size: 27px;
+    padding:  0 20px;
+    font-style: italic;
+    margin-bottom: 40px;
+}
+
+/********/
+
+/* Container Venda */
+
+section.container-venda{
+    margin-top: -50px;
+}
+
+section.container-venda .container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+section.container-venda .container .sidebar{
+    width: 30%;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.container .sidebar .preco-cont{
+    width: 90%;
+    padding: 0 15px;
+}
+
+.container .sidebar .preco-cont h2{
+    font-weight: normal;
+}
+
+
+input[type=range]{
+    width: 330px; 
+}
+
+.sidebar .preco-cont .preco {
+    margin-top: 10px;
+}
+
+.sidebar .preco-cont label{
+    width: 15px;
+    height: 15px;
+    font-size: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    border-top-left-radius: 0px;
+    position: relative;
+}
+
+
+.sidebar .preco-cont .preco span.direito{
+    margin-left: 64%;
+}
+
+.sidebar .ano-content {
+    width: 90%;
+    padding: 0 15px;
+    margin-top: 40px;
+}
+
+
+
+.sidebar .ano-content h2{
+    font-weight: normal;
+}
+
+input[type=checkbox]{
+    margin-top: 15px;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+/*Vitrine*/
+
+section.container-venda .container .venda-destaque {
+    width: 70%;
+    float: left; 
+}
+
+.container .venda-destaque .cada-destaque{
+    width: 33.3%;
+    float: left;
+    text-align: left;
+    border: 10px solid white;
+    margin-top: 40px;
+}
+
+.venda-destaque .cada-destaque .carro-img1{
+    background-image: url(imagens/carro1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: contain;
+    width: 100%;
+    padding-top: 100%;
+}
+
+.venda-destaque .cada-destaque .carro-img2{
+    background-image: url(imagens/1957_Chevrolet_Bel_Air.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: contain;
+    width: 100%;
+    padding-top: 100%;
+}
+
+.venda-destaque .cada-destaque .carro-img3{
+    background-image: url(imagens/Ford_Rural_F75.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: contain;
+    width: 100%;
+    padding-top: 100%;
+}
+
+.venda-destaque .cada-destaque .carro-img4{
+    background-image: url(imagens/1970-1971_VWB_Variant.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: contain;
+    width: 100%;
+    padding-top: 100%;
+}
+
+.venda-destaque .cada-destaque .carro-img5{
+    background-image: url(imagens/willys-jeep-1582193_1280.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: contain;
+    width: 100%;
+    padding-top: 100%;
+}
+
+.venda-destaque .cada-destaque .carro-img6{
+    background-image: url(imagens/ford_maverick.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: contain;
+    width: 100%;
+    padding-top: 100%;
+}
+
+
+
+section.container-venda .container .venda-destaque2 {
+    width: 70%;
+    height: 100%;
+    display: inline-flex;
+    float: left;
+    margin-top: 400px;
+}
+
+.container .venda-destaque2 .cada-destaque{
+    width: 33.3%;
+    border: 10px solid white;
+}
+
+.venda-destaque2 .cada-destaque .carro-img{
+    background-image: url(imagens/carro1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: contain;
+    width: 100%;
+    padding-top: 100%;
+}
+
+.cada-destaque .texto-destaque{
+    height: 100px;
+    margin-top: 10px;
+}
+
+.cada-destaque .texto-destaque h2{
+    font-size: 20px;
+    font-style: italic;
+    color: black;
+}
+
+.cada-destaque .texto-destaque p{
+    font-size: 15px;
+    font-style: italic;
+    color: #353535;
+    padding-top: 8px;
+}
+
+.cada-destaque .texto-destaque .btn{
+    background-color: #EB2D2D;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    margin-top: 12px;
+    text-decoration: none;
+    display: block;
+    width: 150px;
+    line-height: 40px;
+    font-style: italic;
+    border: 0;
+    border-bottom: 8px solid #B21E1E;
+    cursor: pointer;
+}
+
+
+/* Footer */
+
+footer .total{
+    display: flex;
+    width: 100%;
+    height: 108px;
+    background-color: #242424;
+    max-width: 1400px;
+    margin-top: 40px;
+}
+
+footer .total .menu-container-footer{
+    width: 50%;
+    height: 100%;
+}
+
+.menu-container-footer .menu-footer {
+    margin-left: 40px;
+}
+
+.menu-footer ul li {
+    display: inline-block;
+    padding: 30px 40px;
+    margin-top: 12px;
+}
+
+.menu-footer ul li a{
+    font-size: 19px;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-style: italic;
+}
+
+.menu-footer ul li a.atual{
+    font-size: 19px;
+    font-style: italic;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    color: #EB2D2D;
+}
+
+.total .direitos-container {
+    width: 50%;
+    height: 100%;
+}
+
+.direitos-container .direitos{
+    float: right;
+}
+
+.direitos p {
+    color: white;
+    font-size: 19px;
+    font-style: italic;
+    margin-right: 15px;
+    margin-top: 38px;
+}
+
+/*****/
+
+@media screen and (max-width: 1024px){
+    footer  .total{
+        display: flex;
+        width: 100%;
+        height: 108px;
+        background-color: #242424;
+        text-align: center;
+    }
+
+    footer .total .menu-container-footer{
+        display: none;
+    }
+
+    .direitos p {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 890px){
+    section.header .menu-desktop ul li{
+        display: inline-block;
+        padding: 10px 28px;
+        position: relative;
+        left: 10%;
+        top: 30px;
+    }
+   
+
+    .container .venda-destaque .cada-destaque{
+        width: 50%;
+        float: left;
+        text-align: left;
+        border: 10px solid white;
+        margin-top: 40px;
+    }
+
+    .sidebar .preco-cont .barra-preco .pointer-barra{
+        left: 24%; 
+    }
+
+    .sidebar .preco-cont .preco span.direito{
+        margin-left: 39%;
+        margin-top: 100px;
+    }
+
+    footer  .total{
+        display: flex;
+        width: 100%;
+        height: 108px;
+        background-color: #242424;
+    }
+
+    footer .total .menu-container-footer{
+        display: none;
+    }
+
+    .total .direitos-container{
+        width: 100%;
+    }
+
+    .direitos-container .direitos{
+        float: none;
+        display: inline;
+    }
+
+    .direitos-container .direitos p{
+        margin: 40px auto;
+        text-align: center;
+        color: white;
+        font-size: 22px;
+        font-style: italic;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    section.header .menu-desktop ul li{
+        display: none;
+    }
+
+    section.heder .menu-desktop{
+        display: none;
+    }
+    
+    .menu-mobile {
+        background-size: 100% 100%;
+        cursor: pointer;
+        background-image: url(imagens/icon_menu.png);
+        display: block;
+    }
+    
+    .menu-mobile ul{
+        width: 100%;
+        left: 0;
+        top: 55px;
+        display: none;
+        border-bottom:4px solid #EB2D2D;
+        z-index: 999;
+        position: absolute;
+        text-align: center;
+        background-color: white;
+    }
+
+    .menu-mobile ul li:hover {
+        background: rgba(240, 235, 235, 0.575);
+    }
+
+    .menu-mobile ul .atual {
+        color: #EB2D2D;
+    }
+    
+    .menu-mobile li{
+        font-size: 23px;
+        padding:20px 0px;
+        font-style: italic;
+    }
+    
+    .menu-mobile li a{
+        color: black;
+        text-decoration: none;
+    }
+
+    section.container-venda{
+        margin-top: -50px;
+    }
+    
+    section.container-venda .container{
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+
+    
+    section.container-venda .container .sidebar{
+        width: 100%;
+        height: 300px;
+        margin-top: 50px;
+        margin-left: 10px;
+    }
+
+    .container .sidebar .preco-cont{
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .container .sidebar .preco-cont h2{
+        font-weight: normal;
+        text-align: center;
+    }
+
+    .sidebar .preco-cont .barra-preco .pointer-barra{
+        left: 26%; 
+    }
+    
+
+    .sidebar .preco-cont .preco span.direito{
+        margin-left: 81%;
+        margin-top: 100px;
+    }
+    
+
+    .sidebar .ano-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    section.container-venda .container .venda-destaque {
+        width: 100%;
+        float: left; 
+    }
+    
+    .container .venda-destaque .cada-destaque{
+        width: 90%;
+        float: none;
+        margin-left: 35px;
+    }
+
+    footer  .total{
+        display: flex;
+        width: 100%;
+        height: 108px;
+        background-color: #242424;
+    }
+
+    footer .total .menu-container-footer{
+        display: none;
+    }
+
+    .total .direitos-container{
+        width: 100%;
+    }
+
+    .direitos-container .direitos{
+        float: none;
+        display: inline;
+    }
+
+    .direitos-container .direitos p{
+        margin: 40px auto;
+        text-align: center;
+    }
+
+}  
+
+@media screen and (max-width: 590px){
+    .sidebar .preco-cont .preco span.direito{
+        margin-left: 75%;
+        margin-top: 100px;
+    }
+}

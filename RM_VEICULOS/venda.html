@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="carros para venda">
+    <meta name="keywords" content="carro, venda de carros,">
+    <meta name="author" content="Thiago">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link rel="stylesheet" href="style-venda.css">
+    <title>RM veículos especiais</title>
+</head>
+<body>
+    <section class="header">
+        <div class="menu-container">
+            <div class="menu-total">
+                <div class="logo">
+                    <img src="imagens/logo.jpg">
+                </div><!--/logo-->
+                <div class="menu-desktop">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a class="atual" href="venda.html">Venda</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div><!--/menu-desktop-->
+                <diiv class="clear"></div>
+                <div class="menu-mobile">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a class="atual" href="venda.html">Venda</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div><!--/menu-mobile-->
+                <div class="clear"></div>
+            </div><!--/menu-total-->
+        </div><!--/menu-container-->
+    </section><!--/header-->
+    <div class="clear"></div>
+    <section class="venda">
+        <div class="central-linha">
+            <div class="linha"></div><!--/linha-->
+            <div class="texto-linha">
+                <h2>venda</h2>
+            </div><!--/texto-linha-->
+        </div><!--/central-linha-->
+    </section><!--/venda-->
+
+    <section class="container-venda">
+        <div class="container">
+           <div class="sidebar">
+                <div class="preco-cont">
+                    <h2>Filtre por preço</h2>
+                    <div class="el"><input type="range" list="el" name="range" min="0" max="70" value="10" id="range"></div>
+                    <div class="preco">
+                        <span>R$0,00</span><span class="direito" id="outputRange">R$70.000,00</span>
+                    </div>
+                    
+                </div><!--/preco-cont-->
+
+                <div class="ano-content">
+                    <h2>Filtre por ano</h2>
+                    <ul>
+                        <input type="checkbox"  id="all" name="all"> Todas as décadas <br>
+                        <input type="checkbox" class="ano"> 1950 - 1960 <br>
+                        <input type="checkbox" class="ano2"> 1961 - 1970 <br>
+                        <input type="checkbox" class="ano3"> 1971 - 1980 <br>
+                    </ul>
+                </div><!--/ano-content-->
+
+            </div><!--/sidebar-->
+
+            <div class="venda-destaque">
+                <div class="cada-destaque" id="car1">
+                    <div class="carro-img1">
+                        
+                    </div><!--/carro-img1-->
+                    <div class="texto-destaque">
+                        <h2>Volkswagen Karmann-ghia</h2>
+                        <p>1.6 8v, Gasolina, 2P, Manual 1969</p>
+                        <input type="submit" value="Mais Detalhes" class="btn">
+                    </div><!--/texto-destaque-->
+                </div><!--/cada-destaque-->
+
+                <div class="cada-destaque" id="car2">
+                    <div class="carro-img2">
+
+                    </div><!--/carro-img2-->
+                    <div class="texto-destaque">
+                        <h2>Chevrolet Bel Air</h2>
+                        <p>3.9 12v, Gasolina, 4P, Manual 1952</p>
+                        <input type="submit" value="Mais Detalhes" class="btn">
+                    </div><!--/texto-destaque-->
+                </div><!--/cada-destaque-->
+
+                <div class="cada-destaque" id="car3">
+                    <div class="carro-img3">
+
+                    </div><!--/carro-img3-->
+                    <div class="texto-destaque">
+                        <h2>Ford F-75</h2>
+                        <p>2.6 12v, Gasolina, 2P, Manual 1972</p>
+                        <input type="submit" value="Mais Detalhes" class="btn">
+                    </div><!--/texto-destaque-->
+                </div><!--/cada-destaque--> 
+
+                <div class="cada-destaque" id="car4">
+                    <div class="carro-img4">
+
+                    </div><!--/carro-img4-->
+                    <div class="texto-destaque">
+                        <h2>Volkswagen Variant</h2>
+                        <p>1.6 8v, Gasolina, 2P, Manual 1971</p>
+                        <input type="submit" value="Mais Detalhes" class="btn">
+                    </div><!--/texto-destaque-->
+                </div><!--/cada-destaque--> 
+
+                <div class="cada-destaque" id="car5">
+                    <div class="carro-img5">
+
+                    </div><!--/carro-img5-->
+                    <div class="texto-destaque">
+                        <h2>Willys Jeep</h2>
+                        <p>2.6 12v, Gasolina, 2P, Manual 1952</p>
+                        <input type="submit" value="Mais Detalhes" class="btn">
+                    </div><!--/texto-destaque-->
+                </div><!--/cada-destaque-->
+
+                <div class="cada-destaque" id="car6">
+                    <div class="carro-img6">
+                        
+                    </div><!--/carro-img6-->
+                    <div class="texto-destaque">
+                        <h2>Ford Maverick GT</h2>
+                        <p>2.3 8v, Gasolina, 2P, Manual 1977</p>
+                        <input type="submit" value="Mais Detalhes" class="btn">
+                    </div><!--/texto-destaque-->
+                </div><!--/cada-destaque--> 
+
+            </div><!--/venda-destaque-->
+
+            <div class="clear"></div>
+        </div><!--/container-->
+    </section><!--/container-venda--> 
+<div class="clear"></div>
+    
+    <footer>
+        <div class="total">
+            <div class="menu-container-footer">
+                <div class="menu-footer">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a class="atual"  href="venda.html">Venda</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div><!--/menu-footer-->
+            </div><!--/menu-container-footer-->
+            <div class="direitos-container">
+                <div class="direitos">
+                    <p>Todos os direitos reservados</p>
+                </div><!--/container-->
+                <div class="clear"></div>
+            </div><!--/direitos-container-->
+        </div><!--/total-->
+    </footer>
+    <script src="JQuery/JQuery.js"></script>
+    <script src="JQuery/venda.js"></script>
+</body>
+</html>

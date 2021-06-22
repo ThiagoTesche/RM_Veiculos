@@ -1,0 +1,359 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Oswald', sans-serif;
+}
+
+html, body {
+    width: 100%;
+}
+
+.clear{
+    clear: both;
+}
+
+/*header*/
+
+section.header{
+    width: 100%;
+    height: 110px; 
+    border-bottom: 3px solid #EB2D2D;   
+}
+
+section.header .menu-container{
+    margin: 20px ;
+    max-width: 1400px;
+}
+
+section.header .menu-total {
+    margin-left: 10px;
+}
+
+section.header .menu-total .logo{
+    float: left;
+    left: 40px;
+}
+
+section.header .menu-desktop ul li{
+    display: inline-block;
+    padding: 10px 28px;
+    position: relative;
+    left: 48%;
+    top: 30px;
+}
+
+.menu-desktop ul li a {
+    font-size: 23px;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    color: #000;
+    font-style: italic;
+}
+
+.menu-desktop ul li a.atual{
+    font-size: 23px;
+    font-style: italic;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    color: #EB2D2D;
+}
+
+.menu-mobile {
+    margin-top:px;
+	float: right;
+	width: 32px;
+	height: 32px;
+	background-size: 100% 100%;
+	cursor: pointer;
+	background-image: url(imagens/icon_menu.png);
+	display: none;
+}
+
+.menu-mobile ul{
+	display: none;
+	width: 100%;
+	left: 0;
+	top: 95px;
+	border-bottom:4px solid #EB2D2D;
+	z-index: 999;
+	position: absolute;
+	text-align: center;
+	background-color: white;
+}
+
+.menu-mobile li{
+	font-size: 23px;
+	padding:20px 0px;
+	font-style: italic;
+}
+
+.menu-mobile li a{
+	color: black;
+	text-decoration: none;
+}
+
+section.contato{
+    padding: 80px 2% 0 2%;
+}
+
+section.contato .contato-line{
+    max-width: 1400px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+
+section.contato .contato-line .line{
+    width:100%;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    top: 20px;
+}
+
+section.contato .contato-line h2{
+    background-color: white;
+    color: #000;
+    display: inline-block;
+    padding: 0 20px;
+    font-size: 27px;
+    text-transform: uppercase;
+    position: relative;
+    text-align: center;
+    font-style: italic;
+}
+
+
+
+/*****/
+
+/* Formulário */
+
+section.contato form {
+    max-width: 600px;
+    margin: 30px auto;
+}
+
+form .input-wraper {
+    float: left;
+    padding: 10px;
+    margin-top: 7px;
+}
+
+.w100{
+    width: 100%;
+}
+
+.w50{
+    width: 50%;
+}
+
+section.contato input[type=text]{
+    width: 100%;
+    height: 60px;
+    line-height: 40px;
+    font-size: 16px;
+    padding-left: 15px;
+    border: 1px solid #ccc;
+}
+
+section.contato textarea{
+    width: 100%;
+    font-size: 16px;
+    height: 140px;
+    padding: 8px;
+    resize: none;
+}
+
+section.contato .btn1{
+    background-color: #EB2D2D;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    width: 150px;
+    line-height: 40px;
+    font-style: italic;
+    margin-top: 12px;
+    margin-left: 38%;
+}
+
+section.contato input[type=submit]{
+    border: 0 ;
+    border-bottom: 8px solid #B21E1E;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+}
+
+footer .total{
+    display: flex;
+    width: 100%;
+    height: 108px;
+    background-color: #242424;
+    max-width: 1400px;
+}
+
+footer .total .menu-container-footer{
+    width: 50%;
+    height: 100%;
+}
+
+.menu-container-footer .menu-footer {
+    margin-left: 40px;
+}
+
+.menu-footer ul li {
+    display: inline-block;
+    padding: 30px 40px;
+    margin-top: 12px;
+}
+
+.menu-footer ul li a{
+    font-size: 19px;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-style: italic;
+}
+
+.menu-footer ul li a.atual{
+    font-size: 19px;
+    font-style: italic;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    color: #EB2D2D;
+}
+
+.total .direitos-container {
+    width: 50%;
+    height: 100%;
+}
+
+.direitos-container .direitos{
+    float: right;
+}
+
+.direitos p {
+    color: white;
+    font-size: 19px;
+    font-style: italic;
+    margin-right: 15px;
+    margin-top: 38px;
+}
+
+@media screen and (max-width: 810px){
+    section.header .menu-desktop ul li{
+        display: none;
+    }
+
+    section.heder .menu-desktop{
+        display: none;
+    }
+    
+    .menu-mobile {
+        background-size: 100% 100%;
+        cursor: pointer;
+        background-image: url(imagens/icon_menu.png);
+        display: block;
+    }
+    
+    .menu-mobile ul{
+        width: 100%;
+        left: 0;
+        top: 55px;
+        display: none;
+        border-bottom:4px solid #EB2D2D;
+        z-index: 999;
+        position: absolute;
+        text-align: center;
+        background-color: white;
+    }
+
+    .menu-mobile ul li:hover {
+        background: rgba(240, 235, 235, 0.575);
+    }
+
+    .menu-mobile ul .atual {
+        color: #EB2D2D;
+    }
+    
+    .menu-mobile li{
+        font-size: 23px;
+        padding:20px 0px;
+        font-style: italic;
+    }
+    
+    .menu-mobile li a{
+        color: black;
+        text-decoration: none;
+    }
+
+    footer  .total{
+        display: flex;
+        width: 100%;
+        height: 108px;
+        background-color: #242424;
+    }
+
+    footer .total .menu-container-footer{
+        display: none;
+    }
+
+    .total .direitos-container{
+        width: 100%;
+    }
+
+    .direitos-container .direitos{
+        float: none;
+        display: inline;
+    }
+
+    .direitos-container .direitos p{
+        margin: 40px auto;
+        text-align: center;
+        color: white;
+        font-size: 22px;
+        font-style: italic;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    section.contato{
+        padding: 40px 2%;
+    }
+
+    .w50{
+        width: 100%;
+    }
+
+    footer  .total{
+        display: flex;
+        width: 100%;
+        height: 108px;
+        background-color: #242424;
+    }
+
+    footer .total .menu-container-footer{
+        display: none;
+    }
+
+    .total .direitos-container{
+        width: 100%;
+    }
+
+    .direitos-container .direitos{
+        float: none;
+        display: inline;
+    }
+
+    .direitos-container .direitos p{
+        margin: 40px auto;
+        text-align: center;
+        color: white;
+        font-size: 19px;
+        font-style: italic;
+    }
+}
