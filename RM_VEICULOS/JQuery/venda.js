@@ -1,4 +1,10 @@
-
+$(function(){
+    $('.menu-mobile').click(function(){
+        $('.menu-mobile ul').toggle();
+        console.log('funcionando')
+    });
+       
+});
 
 // Input Range
 var range = document.getElementById("range");
