@@ -166,7 +166,8 @@ section.container-venda .container .sidebar{
 
 
 input[type=range]{
-    width: 330px; 
+    width: 108%;
+    max-width: 330px; 
 }
 
 .sidebar .preco-cont .preco {
@@ -547,13 +548,9 @@ footer .total .menu-container-footer{
         text-align: center;
     }
 
-    .sidebar .preco-cont .barra-preco .pointer-barra{
-        left: 26%; 
-    }
-    
 
     .sidebar .preco-cont .preco span.direito{
-        margin-left: 81%;
+        margin-left: 78%;
         margin-top: 100px;
     }
     
@@ -599,11 +596,16 @@ footer .total .menu-container-footer{
         text-align: center;
     }
 
+    input[type=range]{
+        width: 96%;
+        max-width: none;
+    }
+
 }  
 
 @media screen and (max-width: 590px){
     .sidebar .preco-cont .preco span.direito{
-        margin-left: 75%;
+        margin-left: 70%;
         margin-top: 100px;
     }
 }
