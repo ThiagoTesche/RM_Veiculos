@@ -1,3 +1,4 @@
+//Menu mobile.
 $(function(){
     $('.menu-mobile').click(function(){
         $('.menu-mobile ul').toggle();
@@ -80,6 +81,32 @@ $(".ano3").click(function(){
     $("#car1").toggle();
     $("#car2").toggle();
     $("#car5").toggle();
+});
+
+//Ir para a página especifica
+
+$("#maverickButton").click(function(){
+    document.location.href = "Maverick.html";
+});
+
+$("#BelButton").click(function(){
+    document.location.href = "BelAir.html";
+});
+
+$("#willysButton").click(function(){
+    document.location.href = "WyllisJeep.html";
+});
+
+$("#KarmannButton").click(function(){
+    document.location.href = "Karmann.html";
+});
+
+$("#fordButton").click(function(){
+    document.location.href = "Ford.html";
+});
+
+$("#variantButton").click(function(){
+    document.location.href = "Variant.html";
 });
 
     

@@ -35,12 +35,14 @@ section.header .menu-total .logo{
     left: 40px;
 }
 
+section.header .menu-desktop ul{
+    margin-left: 60%;
+    padding-top: 40px;
+}
+
 section.header .menu-desktop ul li{
     display: inline-block;
     padding: 10px 28px;
-    position: relative;
-    left: 48%;
-    top: 30px;
 }
 
 .menu-desktop ul li a {
@@ -417,15 +419,7 @@ footer .total .menu-container-footer{
 }
 
 @media screen and (max-width: 890px){
-    section.header .menu-desktop ul li{
-        display: inline-block;
-        padding: 10px 28px;
-        position: relative;
-        left: 10%;
-        top: 30px;
-    }
-   
-
+    
     .container .venda-destaque .cada-destaque{
         width: 50%;
         float: left;
@@ -473,7 +467,7 @@ footer .total .menu-container-footer{
 }
 
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 816px){
     section.header .menu-desktop ul li{
         display: none;
     }
@@ -607,5 +601,19 @@ footer .total .menu-container-footer{
     .sidebar .preco-cont .preco span.direito{
         margin-left: 70%;
         margin-top: 100px;
+    }
+}
+
+@media screen and (max-width: 1187px){
+    section.header .menu-desktop ul{
+        margin-left: 50%;
+        padding-top: 40px;
+    }
+}
+
+@media screen and (max-width: 969px){
+    section.header .menu-desktop ul{
+        margin-left: 40%;
+        padding-top: 40px;
     }
 }

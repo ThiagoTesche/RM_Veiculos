@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="carros para venda">
+    <meta name="keywords" content="carro, venda de carros,">
+    <meta name="author" content="Thiago">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link rel="stylesheet" href="style-GeralCars.css">
+    <title>RM veículos especiais</title>
+</head>
+<body>
+    <section class="header">
+        <div class="menu-container">
+            <div class="menu-total">
+                <div class="logo">
+                    <img src="imagens/logo.jpg">
+                </div><!--/logo-->
+                <div class="menu-desktop">
+                    <ul>
+                        <li><a class="atual" href="index.html">Home</a></li>
+                        <li><a href="venda.html">Venda</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div><!--/menu-desktop-->
+                <diiv class="clear"></div>
+                <div class="menu-mobile">
+                    <ul>
+                        <li><a class="atual" href="index.html">Home</a></li>
+                        <li><a href="venda.html">Venda</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div><!--/menu-mobile-->
+                <div class="clear"></div>
+            </div><!--/menu-total-->
+        </div><!--/menu-container-->
+    </section><!--/header-->
+    <div class="clear"></div>
+    <section class="veiculo-venda">
+            <div class="central-linha">
+                <div class="linha"></div><!--/linha-->
+                <div class="texto-linha">
+                    <h2>Veículo para venda</h2>
+                </div><!--/texto-linha-->
+            </div><!--/central-linha-->
+            <div class="container">
+                <div class="info-veiculo">
+                    <div class="info-cima">
+                        <a href="index.html">Home</a>
+                        <span> > </span>
+                        <a href="venda.html">Venda</a>
+                        <span> > </span>
+                        <a href="">Chevrolet Bel Air</a>
+                    </div><!--//info-cima-->
+                    <div class="container-texto-imagens">
+                        <div class="imagem active" style="background-image: url(imagens/1957_Chevrolet_Bel_Air.jpg);"></div><!--/img-->
+                        <div class="imagem" style="background-image: url(imagens/single/BelAir2.jfif);"></div><!--/img-->
+                        <div class="imagem" style="background-image: url(imagens/single/B.JPG);"></div><!--/img-->
+                        <div class="slide">
+                            <div class="left-arrow" id="prev"></div><!--left-arrow-->
+                            <div class="imagens-cont">
+                                <img src="imagens/1957_Chevrolet_Bel_Air.jpg" class="border imageAtual" alt="">
+                                <img src="imagens/single/BelAir2.jfif" class="border" alt="">
+                                <img src="imagens/single/B.JPG" class="border" alt="">
+                            </div><!--/imagens-cont-->
+                            <div class="right-arrow" id="next"></div><!--/right-arrow-->
+                        </div><!--/slide-->
+                        <div class="texto">
+                            <h2>R$53.000,00</h2>
+                            <p>O Chevrolet Bel Air foi um carro de tamanho grande produzido pela Chevrolet para os modelos dos anos de 1950-1981. Inicialmente, apenas os hardtops de duas portas na gama de modelos da Chevrolet foram designados com o nome Bel Air de 1950 a 1952, distinto dos modelos Styleline e Fleetline pelo restante da gama. O Bel Air continuou com várias outras designações de nível de acabamento até a produção dos EUA cessar em 1975. A produção continuou no Canadá, apenas pelo mercado doméstico, durante o modelo do ano de 1981.</p>
+                            <input type="submit" value="Entre em contato" class="btn" id="btn1">
+                        </div><!--/texto-->
+                        <div class="clear"></div>
+                    </div><!--/container-texto-imagens-->
+                    
+                </div><!--/info-veiculo-->
+            </div><!--/container-->
+    </section><!--/veiculo-venda-->
+    <section class="contato">
+        <div class="contato-line">
+            <div class="line"></div>
+            <h2>Contato</h2>
+        </div><!--/contato-line-->
+        <form>
+            <div class="input-wraper w100">
+                <input placeholder="Nome*" type="text" required>
+            </div>
+            <div class="input-wraper w50">
+                <input placeholder="E-mail*" type="text" required>
+            </div>
+            <div class="input-wraper w50">
+                <input placeholder="Telefone*" type="text" required>
+            </div>
+            <div class="input-wraper w100">
+                <textarea placeholder="Mensagem*"></textarea>
+            </div>
+            <div class="input-wraper w100 botao">
+                <input class="btn1" type="submit" value="Enviar" required>
+            </div>
+            <div class="clear"></div>
+        </form>
+    </section><!--/contato-->
+    <footer>
+        <div class="total">
+            <div class="menu-container-footer">
+                <div class="menu-footer">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="venda.html">Venda</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div><!--/menu-footer-->
+            </div><!--/menu-container-footer-->
+            <div class="direitos-container">
+                <div class="direitos">
+                    <p>Todos os direitos reservados</p>
+                </div><!--/container-->
+                <div class="clear"></div>
+            </div><!--/direitos-container-->
+        </div><!--/total-->
+    </footer>
+
+    <script src="JQuery/JQuery.js"></script>
+    <script src="JQuery/carSingle.js"></script>
+</body>
+</html>
